@@ -1,0 +1,41 @@
+Create React app- NPX CMD
+Remove not required files from src
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init
+npx tailwindcss init -p
+instali luxon
+finally install toastify
+
+
+use this link -- https://github.com/Iconscout/react-unicons
+npm install --save @iconscout/unicons
+APP.JS -- import UilReact from "@iconscout/react-unicons/icons/uil-react";
+
+import "./App.css";
+import UilReact from "@iconscout/react-unicons/icons/uil-react";
+
+function App() {
+  return (
+    <div className="App">
+      <h1 className="text-2xl font-bold text-red-500">Hello World</h1>
+      <UilReact size={50} />
+    </div>
+  );
+}
+
+export default App;
+
+COMPONENTS - TOP BUTTONS,  INPUTS(import search, location from unicons - https://iconscout.com/unicons/free-line-icons/location )
+
+use GOOGLE FONTS -- https://fonts.google.com/specimen/Poppins , https://fonts.google.com/selection/embed
+
+
+
+Here's how you can install the "Tailwind CSS IntelliSense" extension:
+
+Open VS Code.
+
+
+Go to the Extensions view by clicking on the square icon in the sidebar or by pressing Ctrl+Shift+X.
+Search for "Tailwind CSS IntelliSense".
+Click on the extension offered by Brad Cornes and install it.
